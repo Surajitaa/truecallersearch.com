@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get phone info</title>
+</head>
+<body>
+    <h1>Truecaller Search</h1>
+    <form action="/search" method="post">
+        <label for="phone_number">Enter phone number with country code(eg:+918888888888):</label><br>
+        <input type="text" id="phone_number" name="phone_number"><br><br>
+        <input type="submit" value="Search">
+    </form>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</body>
+</html>
